@@ -1,7 +1,7 @@
 { 
     "autoload":{
         "psr-4":{
-            "Aztech\\Skwal\\Loaders\\Pdo":"src/"
+            "Aztech\\Skwal\\Loaders\\Pdo\\":"src/"
 		}
 	},
 	"name" : "aztech/skwal-pdo-loader",
@@ -15,7 +15,7 @@
         }],
 	"require" : {
 		"php" : ">=5.3",
-		"aztech/skwal" : "~0.1"
+		"aztech/skwal" : "v0.2"
 	},
 	"require-dev" : {
 		"squizlabs/php_codesniffer" : "~1.5",
